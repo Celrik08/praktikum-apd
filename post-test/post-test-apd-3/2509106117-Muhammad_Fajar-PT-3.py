@@ -5,6 +5,11 @@ hari_kerja = int(input("Masukkan jumlah hari kerja: "))
 jam_kerja = int(input("Masukkan jumlah jam kerja per hari: "))
 lembur = int(input("Masukkan jumlah lembur: "))
 
+harga_petasan = 5000
+
+bayaran_per_jam = 0
+bayaran_per_lembur = 0
+
 if jabatan == "peracik":
     if hari_kerja >= 24 and jam_kerja >= 8 and lembur >= 4:
         bayaran_perjam = 25000
@@ -35,6 +40,7 @@ total_gaji = ((bayaran_perjam * jam_kerja) * hari_kerja) + (lembur * bayaran_lem
 print("\n=== Hasil Perhitungan Gaji ===")
 print(f"Nama Karyawan     : {nama}")
 print(f"Jabatan           : {jabatan.capitalize()}")
+print("Harga Petasan   : Rp", f"{harga_petasan:,}")
 print(f"Hari Kerja        : {hari_kerja} hari")
 print(f"Jam Kerja         : {jam_kerja} jam/hari")
 print(f"Jumlah Lembur     : {lembur} kali")
