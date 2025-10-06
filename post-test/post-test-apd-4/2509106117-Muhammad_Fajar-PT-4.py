@@ -1,4 +1,10 @@
-nim = input("Masukkan NIM Anda: ")
+while True:
+    nim = input("Masukkan NIM Anda: ")
+
+    if nim.isdigit(): 
+        break
+    else:
+        print("Input tidak valid! Harap masukkan angka saja.\n")
 
 # 1
 stamina = int(nim[-3:])
@@ -58,6 +64,4 @@ elif jumlah_koridor > 1:
     print(f"Data Intelijen ditemukan: {intelijen}")
     print(f"Perangkap Peledak dijinakkan: {perangkap}")
 else:
-    print ("Salah Input")
-
-# jkasdkhaksdhkahsd
+    print ("Angka adalah 0, atau angka tersebut minus")
