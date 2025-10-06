@@ -59,3 +59,5 @@ elif jumlah_koridor > 1:
     print(f"Perangkap Peledak dijinakkan: {perangkap}")
 else:
     print ("Salah Input")
+
+# jkasdkhaksdhkahsd
