@@ -1,0 +1,4 @@
+users = {
+    1: {"username": "admin", "password": "123", "role": "admin"},
+    2: {"username": "user", "password": "123", "role": "user"}
+}

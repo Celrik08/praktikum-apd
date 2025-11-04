@@ -1,0 +1,1 @@
+riwayat_penjualan = {}
